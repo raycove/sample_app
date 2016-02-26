@@ -38,13 +38,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
+  gem 'puma'
 end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'sqlite3'
-  gem 'puma'
+
 end
 
 group :development do
